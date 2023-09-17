@@ -1,0 +1,33 @@
+header
+    padding: 24px 0
+    background-color: #272726
+    position: fixed
+    width: 100vw
+    z-index: 1
+    .imgbox
+        width: 180px
+        img
+            cursor: pointer
+    nav
+        a
+            color: #ffffff
+            margin: 0 24px
+            font-size: 18px
+            cursor: pointer
+            &:hover
+                color: #ffc800
+    .btn
+        display: none
+        font-size: 18px
+        font-weight: 700
+        padding: 8px 14px
+        color: #949191
+        border: 1px solid #616161
+        h5
+            margin-right: 5px
+    @media( max-width: 992px )
+        nav
+            display: none
+        .btn
+            display: flex
+            align-items: center
