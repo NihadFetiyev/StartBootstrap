@@ -415,6 +415,19 @@ header .btn h5 {
 #company .box4 {
   width: 110px;
 }
+@media screen and (max-width: 768px) {
+  #company .box3 {
+    margin-top: 32px;
+  }
+  #company .box4 {
+    margin-top: 32px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #company .imgbox {
+    margin: 16px 0;
+  }
+}
 
 #contact {
   padding: 96px 0;
